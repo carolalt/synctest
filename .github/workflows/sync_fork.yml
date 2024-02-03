@@ -13,7 +13,7 @@ jobs:
       - name: GitHub Sync to Upstream Repository
         uses: rovast/sync-upstream-repo@v0.0.1
         with: 
-          upstream_repo: https://github.com/carolmanderson/synctext
+          upstream_repo: https://github.com/carolmanderson/synctest
           upstream_branch: main
           downstream_branch: dev
           token: ${{ secrets.PAT_TOKEN }}
