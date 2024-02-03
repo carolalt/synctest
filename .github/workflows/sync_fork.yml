@@ -16,4 +16,4 @@ jobs:
           upstream_repo: https://github.com/carolmanderson/synctest
           upstream_branch: main
           downstream_branch: dev
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
